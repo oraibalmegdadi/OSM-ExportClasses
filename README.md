@@ -16,7 +16,7 @@ This repository is designed for patch-based geospatial workflows, where each ima
 
 ## Repository contents
 
-The repository is expected to include at least:
+The repository includes:
 
 - `osm_patch_processor.py`  
   Main Python class containing the patch processing, downloading, visualisation, and rasterisation logic.
@@ -29,12 +29,6 @@ The repository is expected to include at least:
 
 - `image_metadata_summary.csv`  
   Patch metadata table containing filenames, image dimensions, CRS, projected bounds, and WGS84 bounds.
-
-You may also want to include:
-
-- a folder with one or more **sample plots**
-- example output masks
-- cached vector examples for one or two patches
 
 ---
 
@@ -201,7 +195,7 @@ processor = OSMPatchProcessor(
     verbose=True,
 )
 ```
-
+- `outputsample.png` — example visualisation showing the RGB placeholder or image together with selected OSM semantic layers
 ---
 
 ## Binary masks
@@ -408,37 +402,3 @@ A simple notebook flow is:
 
 ---
 
-## Notes
-
-- This workflow is designed to remain general at the exploratory stage.
-- By default, semantic keys are used in a broad presence-only way.
-- Later refinement can be added using:
-  - subtype filtering
-  - geometry restrictions
-  - buffering
-  - explicit class mappings
-
----
-
-## Suggested files to include in the GitHub repository
-
-For a clean first version of the repository, upload:
-
-- `osm_patch_processor.py`
-- `osm_demo.ipynb`
-- `requirements.txt`
-- `image_metadata_summary.csv`
-- one or two sample cached `.gpkg` files
-- one or two sample plots
-- example binary masks
-- one example multiclass mask
-
----
-
-## Licence / acknowledgement
-
-If you plan to share the repository publicly, it is a good idea to add:
-
-- a licence file
-- a short note describing the source of the image patches
-- a note that OSM-derived layers are auxiliary spatial features and may vary by location and completeness
