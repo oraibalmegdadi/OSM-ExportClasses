@@ -1,0 +1,6 @@
+key,value,count,patch
+building,yes,12,kitsap_49.tif
+highway,service,3,kitsap_49.tif
+highway,residential,1,kitsap_49.tif
+natural,wetland,1,kitsap_49.tif
+waterway,stream,3,kitsap_49.tif

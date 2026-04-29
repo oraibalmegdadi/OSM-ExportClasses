@@ -1,0 +1,16 @@
+key,value,count,patch
+building,yes,33,aachen_11.tif
+building,garages,1,aachen_11.tif
+highway,track,4,aachen_11.tif
+highway,unclassified,2,aachen_11.tif
+highway,residential,2,aachen_11.tif
+highway,path,1,aachen_11.tif
+landuse,grass,7,aachen_11.tif
+landuse,farmland,6,aachen_11.tif
+landuse,forest,3,aachen_11.tif
+landuse,residential,2,aachen_11.tif
+natural,water,2,aachen_11.tif
+natural,scrub,1,aachen_11.tif
+waterway,stream,1,aachen_11.tif
+barrier,tank_trap,1,aachen_11.tif
+barrier,ditch,1,aachen_11.tif

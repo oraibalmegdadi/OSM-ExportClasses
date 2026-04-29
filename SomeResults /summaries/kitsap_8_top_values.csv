@@ -1,0 +1,5 @@
+key,value,count,patch
+highway,service,12,kitsap_8.tif
+highway,residential,3,kitsap_8.tif
+highway,secondary,1,kitsap_8.tif
+barrier,gate,1,kitsap_8.tif

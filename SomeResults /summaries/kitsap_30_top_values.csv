@@ -1,0 +1,15 @@
+key,value,count,patch
+building,yes,73,kitsap_30.tif
+building,office,1,kitsap_30.tif
+highway,service,11,kitsap_30.tif
+highway,tertiary,8,kitsap_30.tif
+highway,residential,7,kitsap_30.tif
+highway,stop,2,kitsap_30.tif
+highway,turning_circle,1,kitsap_30.tif
+highway,crossing,1,kitsap_30.tif
+landuse,garages,1,kitsap_30.tif
+landuse,religious,1,kitsap_30.tif
+landuse,residential,1,kitsap_30.tif
+landuse,recreation_ground,1,kitsap_30.tif
+amenity,parking,2,kitsap_30.tif
+amenity,school,1,kitsap_30.tif
