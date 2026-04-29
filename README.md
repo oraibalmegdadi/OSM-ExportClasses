@@ -194,8 +194,8 @@ processor = OSMPatchProcessor(
     image_root="/path/to/OpenEarthMap_wo_xBD",
     verbose=True,
 )
-```
-- `outputsample.png` — example visualisation showing the RGB placeholder or image together with selected OSM semantic layers
+![Example output](outputsample.png)
+
 ---
 
 ## Binary masks
