@@ -195,7 +195,7 @@ processor = OSMPatchProcessor(
     image_root="/path/to/OpenEarthMap_wo_xBD",
     verbose=True,
 )
-
+```
 ---
 
 ## Binary masks
