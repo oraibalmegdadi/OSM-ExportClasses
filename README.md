@@ -186,6 +186,7 @@ To fix it, either:
 2. pass a local image root when creating the processor
 
 Example:
+![Example output](outputsample.png)
 
 ```python
 processor = OSMPatchProcessor(
@@ -194,7 +195,6 @@ processor = OSMPatchProcessor(
     image_root="/path/to/OpenEarthMap_wo_xBD",
     verbose=True,
 )
-![Example output](outputsample.png)
 
 ---
 
